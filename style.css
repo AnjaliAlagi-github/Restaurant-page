@@ -499,7 +499,7 @@
     }
 
     .block {
-        flex-direction: column; /* Stack images and main content vertically */
+        flex-direction: column-reverse; /* Stack images and main content vertically */
         gap: 10px; /* Reduced gap for smaller screens */
     }
 
