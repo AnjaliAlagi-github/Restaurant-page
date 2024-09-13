@@ -479,6 +479,19 @@
         padding: 10px 20px;
         font-size: 14px;
     }
+    .banner {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 1.6rem 1rem;
+      }
+  
+      .banner h2{
+          font-size: 0.8rem;
+      }
+      .banner .icon {
+        font-size: 1rem;
+      }
+  
 }
 @media (max-width: 480px) {
     section.next {
@@ -535,7 +548,7 @@
 
 .upper h2{
     color :white;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 
@@ -545,7 +558,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 1rem;
     padding: 2rem;
     
     
@@ -556,7 +569,7 @@
     align-items: center;
     gap: 1rem;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     
   }
   .bannerh2{
@@ -581,7 +594,7 @@
     color: white;
     font-family: 'Playfair Display', serif;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     letter-spacing: 2px;
 }
 .section-title img{

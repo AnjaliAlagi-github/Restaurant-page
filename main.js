@@ -2,21 +2,7 @@ const toggleLinks = () => {
     const links = document.querySelector(".links");
     links.classList.toggle("active");
   };
-  document.addEventListener('DOMContentLoaded', () => {
-    const slider = document.querySelector('.reviews__cards');
-    const cards = document.querySelectorAll('.review-card');
-    const totalCards = cards.length;
-    let index = 0;
-
-    function slideCards() {
-        index = (index + 1) % totalCards;
-        const offset = -index * (cards[0].offsetWidth + 20); // Including margin
-        slider.style.transform = `translateX(${offset}px)`;
-    }
-
-    // Slide automatically every 4 seconds
-    setInterval(slideCards, 4000);
-});
+  
 document.addEventListener('DOMContentLoaded', () => {
     // Select all menu items
     const menuItems = document.querySelectorAll('.menu-item');
